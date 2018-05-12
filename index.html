@@ -1,0 +1,91 @@
+<!-- Crystal Game -->
+<!-- Rules: Random numbers from 19 to 120 for the random match numbers
+Crystals have a Random value of 1 through 12.  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Crystal Collector Game</title>
+        ​
+        <!-- Added link to the jQuery Library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        ​<!-- Added a link to Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <!-- Added link to local style sheets -->
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">​
+
+    </head>
+
+
+    <body>
+​       <div class = "container bg-dark text-white">
+            <div class="card bg-dark text-white">
+                <h1 class="text-center">Crystal Collector Game</h1>
+                <hr>
+                <h3 class="text-center">Test you math skills if you dare!</h3>
+            </div>
+        </div>
+            ​
+        <div class="container">
+            ​
+            <div class="row">
+            ​
+            <!-- Crystal Panel -->
+                <div class="col-lg-8">
+                    <div class="card text-center">
+                        <h2 class="card-header">Select your Crystals carefully</h2>
+                    ​
+                        <div class="card-body">
+                        
+                            <input type="image" src="http://www.holywellswimmingclub.co.uk/wp-content/uploads/2017/03/crystal-2.jpg" alt="crystal1" id="crystal-icon1"/>
+                            <input type="image" src="http://media.istockphoto.com/photos/crystal-picture-id517597267?k=6&m=517597267&s=612x612&w=0&h=PltQ4lPULSRG8ivKfslmf2qbsSEhshW_wPSJPcLRF2I=" alt="crystal2" id="crystal-icon2"/>
+                            <input type="image" src="http://marcicagen.com/wp-content/uploads/2017/06/amethyst.jpg" alt="crystal1" id="crystal-icon3"/>
+                            <input type="image" src="https://img0.etsystatic.com/053/0/10757639/il_fullxfull.740597456_n47e.jpg" alt="crystal1" id="crystal-icon4"/>
+                            <br><br>
+                            <h1>Target Number to Match:</h1>
+                            <p id="targetRandomNumber"></p>
+                            <hr>
+                            <button id="reset">Reset Counters</button>                
+                            
+                        </div>
+                    </div>
+                </div>
+                
+
+            ​
+                <!-- Result Panel -->
+                <div class="col-lg-4">
+                    <div class="card text-center">
+                        <p class="card-header">Result:</p>
+                        <p id="score"> </p>
+                        <hr>
+                        <p id="wins"> Wins: </p>
+                        <hr>
+                        <p id="losses"> Losses: </p>
+                        <hr>
+                        <p id="resultText">Get ready Buster for the challenge!  Try to MATCH the target number. Click on any Crystal to start the game!</p>
+                    </div>
+                    </div>
+            </div>
+        </div>
+          
+        <!-- ****************************************************************************************************************************** -->
+            ​
+
+
+    </body>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script> 
+    
+    <footer class="py-3 bg-dark fixed-bottom">
+        <div class="container">
+        <p class="m-0 text-center text-white">&copy Copyright 2018 Al Oshiro</p>
+        </div>
+    </footer>
+
+</html>
+      
+

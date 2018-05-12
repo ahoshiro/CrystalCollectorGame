@@ -1,0 +1,50 @@
+    /* Style for Crystal Game */
+
+body{
+    /*was going to use Natural White but it was too boring, the link below is cooler*/
+    /*background: url(assets/images/ep_naturalwhite.png) repeat;*/
+    background: url(https://s3.envato.com/files/144797738/sightsignal-mysteryquestionmarkquizloop1IMG.jpg) repeat;
+      color: #777777;
+      font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.card{
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;  
+    background-color: #ebe4e4;
+    color: #04501e;
+    font-size: 20px;
+}
+.jumbotron{
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;  
+    background-color: black;
+    color: #b11313;
+    font-size: 25px;
+}
+
+button{
+    margin-left: 200px;
+}
+
+#crystal-icon1{
+	width: 130px;
+	height: 130px;
+    margin: 5px;
+}
+
+#crystal-icon2{
+	width: 130px;
+	height: 130px;
+    margin: 5px;
+}
+
+#crystal-icon3{
+	width: 130px;
+	height: 130px;
+    margin: 5px;
+}
+
+#crystal-icon4{
+	width: 130px;
+	height: 130px;
+    margin: 5px;
+}
